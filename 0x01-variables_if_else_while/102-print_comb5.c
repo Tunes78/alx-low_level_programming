@@ -17,7 +17,6 @@
 */
 
 int main(void)
-
 {
 	int n1 = 48;
 	int a = 0;
@@ -34,8 +33,8 @@ int main(void)
 			putchar((b / 10) + n1);															putchar((b % 10) + n1);
 			if (a != 98 || b != 99)
 			{						 												putchar(com);																putchar(32);
-			}																	b += ;																}
-		a += 1;
+				b += ;																}
+			a += 1;
 	}
 	putchar('\n');
 	return (0);

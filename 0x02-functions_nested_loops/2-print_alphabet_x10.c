@@ -1,26 +1,20 @@
 #include "main.h"
 
 /**
-* add - adds two integers*
-* @n1: integer 1
-* @n2: integer 2
-* Description: give two integers, returns sum
-* Return: sum
+* print_alphabet_x10 - print alphabet 10 times*
+* Return: Always 0
 */
 
-void print_alphabet()
+void print_alphabet_x10(void)
 {
-	char c;
-	int i;
+	int round = 0;
+	char letter = 'a';
 
-	for (i = 0; i <= 10; i++ )
+	while (round < 10)
 	{
-		for (c='a'; c<='z'; ++c)
-		{
-			putchar(c);
-		}
-		putchar('\n');
+		letter = 'a';
+		while (letter <= 'z')								{
+			_putchar(letter);								letter++;								}
+	_putchar('\n');									round++;
 	}
-	return 0;
-
 }
